@@ -1,12 +1,12 @@
 {
   "name": "react-thailand-address",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The best Thailand address autocomplete input for ReactJS",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel lib -d build",
-    "lint": "eslint lib/**; exit 0",
-    "lint:watch": "esw -w lib/**",
+    "build": "babel src -d build",
+    "lint": "eslint src/**; exit 0",
+    "lint:watch": "esw -w src/**",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -40,7 +40,6 @@
     "polished": "^1.9.2",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "styled-components": "^3.2.6"
+    "react-dom": "^16.3.2"
   }
 }
