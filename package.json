@@ -1,6 +1,6 @@
 {
   "name": "react-thailand-address",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "The best Thailand address autocomplete input for ReactJS",
   "main": "build/index.js",
   "scripts": {
